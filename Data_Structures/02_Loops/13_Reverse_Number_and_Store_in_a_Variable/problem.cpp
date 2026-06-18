@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    long long n; 
+    cin >> n;
+    
+    int len = to_string(n).length();
+    long long reverse = 0;
+    for(int i = 0; i < len; i++){
+        reverse = reverse*10 + n%10;
+        n /= 10;
+    }
+    cout << reverse << endl;
+    return 0;
+}
