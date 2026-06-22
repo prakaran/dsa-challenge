@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
 int main() {
-    cout << "Hello, World!" << endl;
+    char c;
+    cin >> c;
+    if( c == 'a' ){
+        cout << "YES" << endl;
+    }else{
+        cout << "NO" << endl;
+    }
     return 0;
 }
