@@ -1,6 +1,15 @@
 #include <iostream>
 using namespace std;
+
+void print(){
+    cout << "I am learning functions\n";
+}
 int main() {
-    cout << "Hello, World!" << endl;
+    int n;
+    cin >> n;
+
+    for(int i =1; i<=n; i++){
+        print();
+    }
     return 0;
 }
